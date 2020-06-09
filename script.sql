@@ -490,3 +490,16 @@ insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POST
 insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (20, 'Sweden', 'Haninge', 'Mcguire', 'Waxwing', 52, 7811);
 insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (21, 'North Korea', 'Sunan', 'Dorton', 'Amoth', 97, 9325);
 insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (22, 'Indonesia', 'Kokop', 'Golf Course', 'Boyd', 18, 4901);
+
+-- VENDOR --
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (1, 'Stacey', 'Ducroe', 'stacey.ducroe@booking.com', '1095811650', 'Flashpoint', 'https://nyu.edu');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (2, 'Melisent', 'Yokel', 'melisent.yokel@posterous.com', '2248593602', 'Photobug', 'https://harvard.edu');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (3, 'Graehme', 'Dyott', 'graehme.dyott@mayoclinic.com', '3125157202', 'Geba', 'https://bloglovin.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (4, 'Fayre', 'Neaves', 'fayre.neaves@google.it', '1379764494', 'Brainlounge', 'http://java.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (5, 'Kari', 'Seaman', 'kari.seaman@hhs.gov', '9508548768', 'Eabox', 'https://aboutads.info');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (6, 'Daveen', 'Cawsy', 'daveen.cawsy@yolasite.com', '1515985383', 'Layo', 'https://zimbio.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (7, 'Brien', 'Kilmartin', 'brien.kilmartin@163.com', '7108191821', 'Eidel', 'https://edublogs.org');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (8, 'Uri', 'Adamo', 'uri.adamo@squidoo.com', '7047678729', 'Janyx', 'https://twitter.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (9, 'Matt', 'Kundt', 'matt.kundt@printfriendly.com', '6448554533', 'Kwilith', 'http://springer.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (10, 'Nelle', 'Sherrock', 'nelle.sherrock@usda.gov', '5427599780', 'InnoZ', 'http://ted.com');
+insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (11, 'Nichole', 'Sokill', 'nichole.sokill@google.ca', '6079296805', 'Trupe', 'http://dell.com');
