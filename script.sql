@@ -464,3 +464,29 @@ BEGIN
         WHERE A.ID = VAR_VENDOR_IDADDRESS;
     END IF;
 END;
+
+-- inserts --
+
+-- ADDRESS --
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (1, 'Burkina Faso', 'Kaya', 'Mallory', 'Monument', 87, 8516);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (2, 'China', 'Zhaobei', 'Fisk', 'Sunbrook', 9, 3600);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (3, 'Czech Republic', 'Zásmuky', 'Vera', 'Kings', 94, 9084);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (4, 'France', 'Suresnes', 'Algoma', 'Leroy', 59, 8123);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (5, 'Indonesia', 'Bomomani', 'Chive', 'Hayes', 30, 8786);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (6, 'Portugal', 'Casal', 'David', 'Leroy', 73, 1861);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (7, 'Philippines', 'Agdangan', 'Kingsford', 'Laurel', 38, 2452);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (8, 'China', 'Qiaobian', 'Lunder', 'Stuart', 65, 8614);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (9, 'China', 'Erling', 'Monument', 'Oak', 2, 7019);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (10, 'China', 'Huichang', 'Artisan', 'Eastlawn', 61, 4027);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (11, 'Indonesia', 'Cihaurbeuti', 'Orin', 'Hintze', 26, 3047);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (12, 'Finland', 'Virojoki', 'Myrtle', 'Ruskin', 80, 7638);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (13, 'Indonesia', 'Sambirobyong', 'Hagan', 'Homewood', 99, 3829);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (14, 'China', 'Xingshou', 'Heath', '2nd', 58, 8018);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (15, 'Philippines', 'Bato', '4th', 'Kinsman', 64, 7254);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (16, 'Sweden', 'Borlänge', 'Homewood', 'Atwood', 76, 5467);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (17, 'Philippines', 'Bagroy', 'Shopko', 'Randy', 51, 5561);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (18, 'Croatia', 'Soljani', 'Meadow Valley', 'Rowland', 45, 4957);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (19, 'China', 'Shadui', 'International', 'Maple', 33, 1044);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (20, 'Sweden', 'Haninge', 'Mcguire', 'Waxwing', 52, 7811);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (21, 'North Korea', 'Sunan', 'Dorton', 'Amoth', 97, 9325);
+insert into ADDRESS (ID, COUNTRY, CITY, NEIGHBOURHOOD, STREET, APARTMENTNO, POSTALCODE) values (22, 'Indonesia', 'Kokop', 'Golf Course', 'Boyd', 18, 4901);
