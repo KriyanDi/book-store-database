@@ -553,3 +553,17 @@ insert into ORDER (ORDERNO,  STATUS, CARDNO) values ('6', 'ACCEPTED', 35781345);
 insert into ORDER (ORDERNO,  STATUS, CARDNO) values ('7', 'UNACCEPETED', 5602);
 insert into ORDER (ORDERNO,  STATUS, CARDNO) values ('8', 'ACCEPTED', 354261);
 insert into ORDER (ORDERNO,  STATUS, CARDNO) values ('9', 'UNACCEPETED', 35762492);
+
+-- BOOK --
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100754, '137988489424', 20.14, 23, 8, 'book', 'action', 'Two Rabbits (2 Coelhos)', 'Edouard Lefley', 'New Zealand Sign Language', 'Strayer Education, Inc.', 135);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100689, '152268925439', 15, 14, 3, 'book', 'adventure', 'Johnny Tremain', 'Sheffie Trinke', 'Quechua', 'First Trust Eurozone AlphaDEX ETF', 158);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100182, '143009825483', 4.6, 54, 6, 'book', 'drama', 'King''s Speech, The', 'Jdavie Prestner', 'Armenian', 'Penn Virginia Corporation', 117);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100119, '165160247408', 16.48, 29, 9, 'book', 'comedy', 'Baxter, The', 'Ware Antonetti', 'Latvian', 'Check-Cap Ltd.', 132);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100150, '112008339013', 10.37, 49, 7, 'book', 'drama', 'Cronos', 'Briant Phipps', 'Yiddish', 'Advanced Emissions Solutions, Inc.', 140);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100295, '105797675530', 5.69, 22, 5, 'book', 'horror', 'Alien', 'Claudius McKinnon', 'Sotho', 'Regal Entertainment Group', 116);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100229, '114506554252', 24.03, 32, 7, 'book', 'thriller', 'American Yakuza', 'Stanleigh Sentinella', 'Malay', 'iShares MSCI New Zealand Capped ETF', 183);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100181, '198997663681', 4.49, 91, 8, 'book', 'thriller', 'Passion of Darkly Noon, The', 'Gaile Judkin', 'Bulgarian', 'Origin Agritech Limited', 119);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100873, '113179458863', 11, 32, 11, 'book', 'fantasy', 'Dollman vs. Demonic Toys', 'Kip Harg', 'Latvian', 'BLDRS Developed Markets 100 ADR Index Fund', 139);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100559, '177217109490', 34, 57, 2, 'book', 'drama', 'Who''s Afraid of Virginia Woolf?', 'Worden Gimson', 'Azeri', 'The Obesity ETF', 79);
+insert into BOOK (SKU, BARCODE, PRICE, STORGQUANT, VENDORID, CATEGORY, GENRE, TITLE, AUTHOR, LANGUAGE, PUBLISHER, NUMOFPAGES) values (100870, '164695223230', 2.29, 32, 11, 'book', 'comedy', 'How to Make Love to a Woman', 'Camilla Durrington', 'Bengali', 'ArcelorMittal', 179);
+
