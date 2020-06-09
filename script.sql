@@ -530,3 +530,15 @@ INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Réjane'
 INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Inès', 'Jezzard', 'inès.jezzard@live.com', 'NKOIc1QNH', 14);
 INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Adélie', 'Abram', 'adélie.abram@usda.gov', 'lnFkOd1s', 12);
 
+-- PAYMENT --
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('3538', 'jcb', 'Camélia', 'Pevreal', '2020-12-23');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('401', 'visa','Aloïs', 'Mahmood','2020-11-15');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('356', 'jcb','Mélanie', 'Tolland', '2021-09-15');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('3528', 'jcb', 'Maïly', 'Powlesland', '2025-06-30');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('35684', 'jcb', 'Illustrée', 'Barehead', '2022-10-20');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('51087534', 'mastercard','Bérénice', 'Roselli', '2026-10-21');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('35781345', 'jcb', 'Lài', 'Stores','2021-11-09');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('35762492', 'jcb',  'Félicie', 'Chicco', '2022-04-02');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('5602', 'bankcard', 'Réjane', 'Aprahamian', '2021-01-14');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('49038', 'switch', 'Inès', 'Jezzard', '2020-09-18');
+insert into PAYMENT (CARDNO, CARDTYPE, CARDHOLDERN, CARDHOLDERS, CARDEXPIRED) values ('354261', 'jcb', 'Adélie', 'Abram', '2023-05-14');
