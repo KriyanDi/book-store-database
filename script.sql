@@ -503,3 +503,16 @@ insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) val
 insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (9, 'Matt', 'Kundt', 'matt.kundt@printfriendly.com', '6448554533', 'Kwilith', 'http://springer.com');
 insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (10, 'Nelle', 'Sherrock', 'nelle.sherrock@usda.gov', '5427599780', 'InnoZ', 'http://ted.com');
 insert into VENDOR (ID, FIRSTNAME, LASTNAME, EMAIL, PHONE, COMPANYNAME, URL) values (11, 'Nichole', 'Sokill', 'nichole.sokill@google.ca', '6079296805', 'Trupe', 'http://dell.com');
+
+-- VENDORADDRESS --
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (1,  10, 21);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (2,  3,  18);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (3,  11, 16);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (4,  8,  15);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (5,  1,  12);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (6,  4,  11);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (7,  2,  10);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (8,  5,  8);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (9,  6,  5);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (10, 7,  4);
+insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (11, 9,  2);
