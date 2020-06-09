@@ -516,3 +516,17 @@ insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (8,  5,  8);
 insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (9,  6,  5);
 insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (10, 7,  4);
 insert into VENDORADDRESS (ID, IDVENDOR, IDADDRESS) values (11, 9,  2);
+
+-- MEMBER --
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Camélia', 'Pevreal', 'camélia.pevreal@hud.gov', 'rVh0Jo', 20);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Aloïs', 'Mahmood', 'aloïs.mahmood@salon.com', 'bpaEpTEJMQ', 10);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Mélanie', 'Tolland', 'mélanie.tolland@google.com', 'dsF9FK9', 10);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Maïly', 'Powlesland', 'maïly.powlesland@yahoo.com', 'shAIXDW7', 6);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Illustrée', 'Barehead', 'illustrée.barehead@1688.com', 'pO4aCpGd', 18);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Bérénice', 'Roselli', 'bérénice.roselli@webs.com', 'caHe6hOwG9', 13);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Lài', 'Stores', 'lài.stores@i2i.jp', 'p4ghLwaUFtm', 19);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Félicie', 'Chicco', 'félicie.chicco@123-reg.co.uk', 'fZyxDa', 15);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Réjane', 'Aprahamian', 'réjane.aprahamian@tamu.edu', 'jnci6vlS', 9);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Inès', 'Jezzard', 'inès.jezzard@live.com', 'NKOIc1QNH', 14);
+INSERT INTO MEMBER (NAME, SURNAME, EMAIL, PASSWORD, IDADDRESS) VALUES ('Adélie', 'Abram', 'adélie.abram@usda.gov', 'lnFkOd1s', 12);
+
