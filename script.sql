@@ -605,3 +605,18 @@ insert into PENCIL (SKU, BARCODE, PRICE, STORGQUANT, CATEGORY, VENDORID, TYPE, E
 insert into PENCIL (SKU, BARCODE, PRICE, STORGQUANT, CATEGORY, VENDORID, TYPE, ERASER, COLOUR) values (400663, '444227051891', 3.58, 128, 'pencil', 2, 'B4', 'y', 'orange');
 insert into PENCIL (SKU, BARCODE, PRICE, STORGQUANT, CATEGORY, VENDORID, TYPE, ERASER, COLOUR) values (400049, '459352433377', 1, 141, 'pencil', 5, 'B2', 'n', 'green');
 insert into PENCIL (SKU, BARCODE, PRICE, STORGQUANT, CATEGORY, VENDORID, TYPE, ERASER, COLOUR) values (400888, '469232709420', 3.18, 195, 'pencil', 6, 'H2', 'y', 'crimson');
+
+-- BASKET --
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (1,  16.48,    1,  3538,      'camélia.pevreal@hud.gov',       100119, 1);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (2, 181.26,    6,  35781345,  'lài.stores@i2i.jp',             100754, 9);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (3,     46,    9,  35762492,  'félicie.chicco@123-reg.co.uk',  400913, 8);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (4,     24,    3,       356,  'mélanie.tolland@google.com',    100181, 5);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (5,   9.88,   4,     35684,  'illustrée.barehead@1688.com',   300646, 2);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (6,      9,    1,      3538,  'camélia.pevreal@hud.gov',       300840, 9);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (7,     34,    2,      3538,  'camélia.pevreal@hud.gov',       100559, 1);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (8,  21.24,    7,      5602,  'réjane.aprahamian@tamu.edu',    200939, 3);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (9,  18.85,    3,       356,  'mélanie.tolland@google.com',    300889, 5);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (10,   324,    3,       356,  'mélanie.tolland@google.com',    200029, 6);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (11, 49.44,    3,       356,  'mélanie.tolland@google.com',    100119, 3);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (12,   320,    2,      3538,  'camélia.pevreal@hud.gov',      200201, 10);
+insert into BASKET (ID, TOTALPRICE, ORDERNO, CARDNO, EMAIL, SKU, QUANTITY) values (13, 14.15,    9,  35762492, 'félicie.chicco@123-reg.co.uk',  300212,  5);
