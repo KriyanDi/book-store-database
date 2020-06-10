@@ -78,4 +78,7 @@ CREATE VIEW V_LEAST_COMMON_VENDOR_INFO(ID, EMAIL, FIRSTNAME, LASTNAME, PHONE, CO
         FROM VENDOR
         WHERE VENDOR.ID IN (SELECT VENDORID FROM V_NUM_BOOKS_PER_VENDOR WHERE NUMBER_PER_VENDOR = (SELECT MIN(NUMBER_PER_VENDOR)
                                                                                                 FROM V_NUM_BOOKS_PER_VENDOR));
-                                                                                                
+
+CREATE VIEW VENDOR_CLIENT_VIEW(EMAIL, FIRSTNAME, LASTNAME, PHONE, COMPANYNAME) AS 
+    SELECT EMAIL, FIRSTNAME, LASTNAME, PHONE, COMPANYNAME
+        FROM VENDOR;
