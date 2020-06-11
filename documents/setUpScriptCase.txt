@@ -1,0 +1,27 @@
+1. Download and insall for DB2:
+http://127.0.0.1:8091/scriptcase/doc/manual_mp/manual/05-scriptcase-connections/03-db2/02-db2-windows/index.html
+
+2. Add the client path installed in the PATH of the Windows environment variables:
+By default, the path is C:\Program Files\IBM\IBM DATA SERVER DRIVER\bin
+
+3.Restart the Apache service using the Task Manager:
+Open the Task Manager and click on the Services tab.
+Search for the ApacheScriptcase9php73 service and right click on this service, then Restart.
+
+4.Run following commands in CMD:
+https://www.ibm.com/support/knowledgecenter/SS6NHC/com.ibm.swg.im.dashdb.doc/connecting/connect_connecting_cli_and_odbc_applications.html
+
+db2cli writecfg add -database SAMPLE -host 62.44.108.24 -port 50000
+db2cli writecfg add -dsn SAMPLE -database SAMPLE -host 62.44.108.24 -port 50000
+db2cli validate -dsn SAMPLE -connect -user db2admin -passwd db2admin
+db2cli registerdsn -add -dsn SAMPLE
+
+Connection Name: BookStore
+DBMS Driver
+
+Server/Host (Name or IP): 62.44.108.24
+Port: 50000
+Database Name: SAMPLE
+Schema: FN45419
+Username: db2admin
+Password: db2admin
