@@ -16,9 +16,10 @@ db2cli writecfg add -dsn SAMPLE -database SAMPLE -host 62.44.108.24 -port 50000
 db2cli validate -dsn SAMPLE -connect -user db2admin -passwd db2admin
 db2cli registerdsn -add -dsn SAMPLE
 
+-----
+Databse information:
 Connection Name: BookStore
-DBMS Driver
-
+DB2
 Server/Host (Name or IP): 62.44.108.24
 Port: 50000
 Database Name: SAMPLE
