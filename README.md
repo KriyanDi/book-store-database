@@ -6,5 +6,5 @@
 # Project Participants  
 
 **Meglena Stefanova**\
-**Zlatina Djanavarova**\
+**Zlatina Dzhanavarova**\
 **Kristiyan Dimitrov** *(me)*
