@@ -12,8 +12,8 @@ Search for the ApacheScriptcase9php73 service and right click on this service, t
 https://www.ibm.com/support/knowledgecenter/SS6NHC/com.ibm.swg.im.dashdb.doc/connecting/connect_connecting_cli_and_odbc_applications.html
 
 db2cli writecfg add -database SAMPLE -host **.**.***.** -port *****
-db2cli writecfg add -dsn ****** -database SAMPLE -host **.**.***.** -port *****
-db2cli validate -dsn SAMPLE -connect -user ******** -passwd ********
+db2cli writecfg add -dsn ****** -database ****** -host **.**.***.** -port *****
+db2cli validate -dsn ****** -connect -user ******** -passwd ********
 db2cli registerdsn -add -dsn SAMPLE
 
 -----
