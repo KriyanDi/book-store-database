@@ -11,18 +11,18 @@ Search for the ApacheScriptcase9php73 service and right click on this service, t
 4.Run following commands in CMD:
 https://www.ibm.com/support/knowledgecenter/SS6NHC/com.ibm.swg.im.dashdb.doc/connecting/connect_connecting_cli_and_odbc_applications.html
 
-db2cli writecfg add -database SAMPLE -host 62.44.108.24 -port 50000
-db2cli writecfg add -dsn SAMPLE -database SAMPLE -host 62.44.108.24 -port 50000
-db2cli validate -dsn SAMPLE -connect -user db2admin -passwd db2admin
+db2cli writecfg add -database SAMPLE -host **.**.***.** -port *****
+db2cli writecfg add -dsn ****** -database SAMPLE -host **.**.***.** -port *****
+db2cli validate -dsn SAMPLE -connect -user ******** -passwd ********
 db2cli registerdsn -add -dsn SAMPLE
 
 -----
 Databse information:
 Connection Name: BookStore
 DB2
-Server/Host (Name or IP): 62.44.108.24
-Port: 50000
-Database Name: SAMPLE
+Server/Host (Name or IP): **.**.***.**
+Port: *****
+Database Name: *****
 Schema: FN45419/FN45439
-Username: db2admin
-Password: db2admin
+Username: ********
+Password: ********
